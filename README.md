@@ -1,6 +1,6 @@
 # lambda_api
 
-[![Tests](https://github.com/Team766/lambda_api/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Team766/lambda_api/actions/workflows/tests.yml)
+[![Tests](https://github.com/Team766/lambda_api/actions/workflows/tests.yml/badge.svg?branch=main&event=push)](https://github.com/Team766/lambda_api/actions/workflows/tests.yml)
 
 Minimal Python CLI + helpers for the **Lambda Cloud API** (https://cloud.lambda.ai/api/v1).
 
