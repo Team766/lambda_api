@@ -1,0 +1,23 @@
+[project]
+name = "lambda-api"
+version = "0.1.0"
+description = "Minimal Python CLI/helpers for the Lambda Cloud API"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+  "httpx>=0.27.0",
+  "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+lambda-api = "lambda_api.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
